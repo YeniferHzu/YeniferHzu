@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="icono.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://kit.fontawesome.com/039479d257.js" crossorigin="anonymous"></script>
+  <title>RIIEDEM</title>
+  <script src="js/particles.min.js"></script>
+</head>
+<body>
+
+<!--FONDO DE PARTICULAS-->
+<div id="particles-js"></div> 
+
+<header id="main-header">
+  
+  <a id="logo-header">
+    <span class="site-name">Yenifer Hzu</span>
+    <span class="site-desc"></span>
+  </a> <!-- / #logo-header -->
+
+  <nav>
+    <ul>
+      <li><a href="index.html"><i class="fa-solid fa-arrow-left fa-fade"></i>  Regresar</a></li>
+    </ul>
+  </nav><!-- / nav -->
+</header><!-- / #main-header -->
+
+  <section id="main-content">
+  
+    <article>
+      
+      <div class="content">
+
+        <!--INICIO DE RIIEDEM-->
+  <div align="center">
+    <img src="imgs/riiedem/riiedem-encabezado.png" alt="Encabezado RIIEDEM" width="800px" height="1600px">
+    <h2>RIIEDEM</h2>
+        <h3>Repositorio Institucional Para Instituciones Educativas Del Estado De México</h3>
+  </div>
+    
+    <p class="justificado">En este proyecto, trabajé como miembro del equipo en la implementación de la propuesta, el desarrollo del diseño del sistema, el desarrollo del sistema, la implementación de una aplicación nativa y su despliegue.
+
+    <br><br>Este proyecto trata sobre la creación de un repositorio institucional para diversos planteles educativos. El objetivo principal es preservar la información de los docentes, permitiéndoles almacenar datos relacionados con su información académica.
+
+    <br><br>El propósito del proyecto es proponer un repositorio institucional que facilite los procesos administrativos de los docentes. Para lograr esto, el sistema cuenta con dos tipos de perfiles: uno para los docentes y otro para los administradores.
+
+    <br><br>Para las sesiones de los docentes, el sistema incluye apartados para almacenar información como: detalles de sus clases, participación en congresos, estancias académicas de los alumnos, horarios de clases, informes de estadías, información sobre libros o capítulos publicados, modelos de utilidad, patentes y publicaciones. También cuenta con un apartado para visualizar su información personal.
+
+    <br><br>En cuanto al perfil del administrador, tiene funciones como dar de alta usuarios, actualizar su información, eliminarlos y visualizarlos. Además, el sistema cuenta con un apartado de registro de usuarios para que cada uno pueda darse de alta, y también ofrece la opción de recuperar la contraseña en caso de extravío.
+
+    <br><br>Mi responsabilidad principal en este proyecto, como mencioné, fue:
+
+    <img src="imgs/imgs/cerebroPHP.png" class="flotante" alt="Decoración" width="400px" height="400px" align="right">
+
+    <br>-Elaborar encuestas para conocer las necesidades del cliente y las opiniones de los posibles usuarios.
+    <br>-Plantear la solución a esas necesidades, determinando que se trataría de un sitio web con una aplicación para dispositivos móviles.
+    <br>-Desarrollar el diseño de las interfaces del sistema.
+    <br>-Desarrollar los formularios de registro, inicio de sesión y recuperación de contraseña.
+    <br>-Implementar los formularios para el almacenamiento de la información de las clases, congresos de participación, estancias académicas, horarios, informes de estadía, información sobre libros o capítulos, modelos de utilidad, patentes y publicaciones.
+    <br>-Permitir a cada docente registrar, modificar, consultar y eliminar su información en cada una de las áreas mencionadas anteriormente.
+    <br>-Implementar el apartado de bienvenida una vez iniciada la sesión de los docentes.
+    <br>-Implementar el apartado de perfil que contiene la información con la que el docente se registró.
+    <br>-Desarrollar la base de datos para almacenar la información de cada uno de los apartados antes mencionados.
+    <br>-Diseñar, desarrollar e implementar el software como una aplicación nativa para su funcionamiento en dispositivos móviles.
+    <br>-Implementación de pruebas de integridad, funcionalidad y de humo.
+
+    <br><br>En cuanto a la propuesta del repositorio institucional como solución al problema de facilitar los procesos administrativos, se propuso desarrollarlo utilizando HTML, CSS, JavaScript, Bootstrap, PHP y MySQL.
+
+    <br><br>En relación a la elaboración de la encuesta para el cliente, se plantearon las siguientes preguntas:
+
+    <i><br><br>1. ¿A quién va a estar dirigido el repositorio insitucional?
+    <br>2. ¿Cuál es el propósito de este repositorio?
+    <br>3. ¿Qué diferencia tendrá este repositorio de entre el resto de repositorios existentes con la misma función o una función parecida?
+    <br>4. ¿Tiene algún requerimiento en específico para el repositorio institucional? 
+    <br>5. ¿Cuenta con alguna idea sobre cómo quiere que se vea? De preferencia coloque algún ejemplo.
+    <br>6.  ¿Ha considerado algún color o esquema definido para el repositorio?
+    <br>7. ¿Hay alguna funcionalidad o diseño que le gustaría implementar de otros sitios web?
+    <br>8. ¿Hay algún contenido qué le gustaría que se brindará a través de este repositorio? (Fotos, vídeos, imágenes, archivos PDF, etc.).
+    <br>9.  ¿Requiere que tenga algún apartado de contacto?
+    <br>10.  ¿Ha planeado implementarlo en alguna institución?
+    <br>11. ¿Qué evidencias requiere para la entrega del repositorio?</i>
+
+    <br><br>Y en cuanto a la elaboración de la encuesta para los posibles usuarios, se formularon las siguientes preguntas:
+
+    <i><br>1. Edad.
+    <br>2. ¿Qué tan importante es para usted que exista un repositorio institucional?
+    <br>3. ¿Es fundamental para usted que se puedan almacenar sus horarios actuales y pasados además de poder almacenar el nombre de sus clases impartidas y clases especiales?
+    <br>4. ¿Qué tan valioso es para usted poder almacenar certificados de publicaciones?
+    <br>5. ¿Para usted qué tan crucial es poder almacenar sus constancia de partición en congresos?
+    <br>6. ¿Qué tan provechoso es para usted poder almacenar sus patentes?
+    <br>7. ¿Si almacenará sus modelos de utilidad que tan significativo sería?
+    <br>8. ¿Qué tan esencial es para usted el poder almacenar sus libros o capítulos de libros?
+    <br>9. ¿Poder almacenar los reportes de estancias académicas e informes técnicos qué tan valioso es para usted?
+    <br>10. ¿Qué tan conveniente es para usted poder almacenar distintos formatos para su posterior descarga?
+  </p>
+
+<!--GALERÍA DE PROPTOTIPOS-->
+  <p>Gracias a esta encuestas, se pudieron determinar los diseños que serían implementados:
+    <div id="ajustar">
+    <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/inicia-sesion.jpg">
+                <img src="imgs/prototipos/inicia-sesion.jpg" alt="Inicia Sesión" width="600" height="400">
+              </a>
+              <div class="desc">Iniciar sesión</div>
+            </div>
+          </div>
+
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/olvidarpss.jpg">
+                <img src="imgs/prototipos/olvidarpss.jpg" alt="Olvidar contraseña" width="600" height="400">
+              </a>
+              <div class="desc">Olvidaste tu contraseña</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/recuperapss.jpg">
+                <img src="imgs/prototipos/recuperapss.jpg" alt="Recuperar contraseña" width="600" height="400">
+              </a>
+              <div class="desc">Recuperar contraseña</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/bienvenidadocentes.jpg">
+                <img src="imgs/prototipos/bienvenidadocentes.jpg" alt="Bienvenida docentes" width="600" height="400">
+              </a>
+              <div class="desc">Bienvenida docentes</div>
+            </div>
+
+          </div>
+
+          <div class="clearfix"></div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/horarios.jpg">
+                <img src="imgs/prototipos/horarios.jpg" alt="Horarios" width="600" height="400">
+              </a>
+              <div class="desc">Formulario para horarios</div>
+            </div>
+          </div>
+
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/clases.jpg">
+                <img src="imgs/prototipos/clases.jpg" alt="Clases" width="600" height="400">
+              </a>
+              <div class="desc">Formulario para clases</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/publicaciones.jpg">
+                <img src="imgs/prototipos/publicaciones.jpg" alt="Publicaciones" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de publicación</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/congresos.jpg">
+                <img src="imgs/prototipos/congresos.jpg" alt="Congresos" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de congresos</div>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <!--SEGUNDAS-->
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/patentes.jpg">
+                <img src="imgs/prototipos/patentes.jpg" alt="Patentes" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de patentes</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/modelos.jpg">
+                <img src="imgs/prototipos/modelos.jpg" alt="Modelos" width="600" height="400">
+              </a>
+              <div class="desc">Formulario para modelos</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/libros.jpg">
+                <img src="imgs/prototipos/libros.jpg" alt="Libros o capitulos" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de Libros</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/estancias.jpg">
+                <img src="imgs/prototipos/estancias.jpg" alt="Estancias" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de estancias</div>
+            </div>
+
+          </div>
+
+          <div class="clearfix"></div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/informe.jpg">
+                <img src="imgs/prototipos/informe.jpg" alt="Informe técnico" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de informes</div>
+            </div>
+          </div>
+
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/docentes.jpg">
+                <img src="imgs/prototipos/docentes.jpg" alt="Docentes" width="600" height="400">
+              </a>
+              <div class="desc">Perfil docente</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/bienvenidaAdmin.jpg">
+                <img src="imgs/prototipos/bienvenidaAdmin.jpg" alt="Sesión administrador" width="600" height="400">
+              </a>
+              <div class="desc">Sesión Administrador</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/prototipos/altaUsuarios.jpg">
+                <img src="imgs/prototipos/altaUsuarios.jpg" alt="Editar usuarios" width="600" height="400">
+              </a>
+              <div class="desc">Editar Usuarios</div>
+            </div>
+          </div>
+
+          <div class="clearfix"></div><!--Fin de la galería de prototipos-->
+    </div>
+  </p>
+
+<!--GALERÍA DE INTERFACES-->
+
+  <p>Basándonos en estos prototipos, se llevó a cabo el desarrollo del sitio web y estas fueron sus interfaces.
+
+    <div id="ajustar">
+    <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r1.jpg">
+                <img src="imgs/riiedem/r1.jpg" alt="Iniciar Sesión" width="600" height="400">
+              </a>
+              <div class="desc">Elegir usuario</div>
+            </div>
+          </div>
+
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r2.jpg">
+                <img src="imgs/riiedem/r2.jpg" alt="Registro de docentes" width="600" height="400">
+              </a>
+              <div class="desc">Registro de docentes</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r3.jpg">
+                <img src="imgs/riiedem/r3.jpg" alt="Iniciarsesión" width="600" height="400">
+              </a>
+              <div class="desc">Iniciar sesión</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r4.jpg">
+                <img src="imgs/riiedem/r4.jpg" alt="Inicio sw awaión Administrador" width="600" height="400">
+              </a>
+              <div class="desc">Inicio sesión Admin</div>
+            </div>
+
+          </div>
+
+          <div class="clearfix"></div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r6.jpg">
+                <img src="imgs/riiedem/r6.jpg" alt="Horarios" width="600" height="400">
+              </a>
+              <div class="desc">Bienvenida docentes</div>
+            </div>
+          </div>
+
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r7.jpg">
+                <img src="imgs/riiedem/r7.jpg" alt="Clases" width="600" height="400">
+              </a>
+              <div class="desc">Menú sesión docentes</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r8.jpg">
+                <img src="imgs/riiedem/r8.jpg" alt="Publicaciones" width="600" height="400">
+              </a>
+              <div class="desc">Peril docente</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r9.jpg">
+                <img src="imgs/riiedem/r9.jpg" alt="Congresos" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de clases</div>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <!--SEGUNDAS-->
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r10.jpg">
+                <img src="imgs/riiedem/r10.jpg" alt="Visualizaciónde archivos" width="600" height="400">
+              </a>
+              <div class="desc">Visualización de archivos</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r11.jpg">
+                <img src="imgs/riiedem/r11.jpg" alt="Modificar registros" width="600" height="400">
+              </a>
+              <div class="desc">Modificar registros</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r12.jpg">
+                <img src="imgs/riiedem/r12.jpg" alt="Congresos" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de congresos</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r13.jpg">
+                <img src="imgs/riiedem/r13.jpg" alt="Estancias" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de estancias</div>
+            </div>
+
+          </div>
+
+          <div class="clearfix"></div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r14.jpg">
+                <img src="imgs/riiedem/r14.jpg" alt="Horarios" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de horarios</div>
+            </div>
+          </div>
+
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r15.jpg">
+                <img src="imgs/riiedem/r15.jpg" alt="Informes" width="600" height="400">
+              </a>
+              <div class="desc">Formularios de informes</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r16.jpg">
+                <img src="imgs/riiedem/r16.jpg" alt="Libros o capitulos de libros" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de libros</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r17.jpg">
+                <img src="imgs/riiedem/r17.jpg" alt="Modelos" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de modelos</div>
+            </div>
+          </div>
+        <div class="clearfix"></div>
+
+<!--TERCERAS-->
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r18.jpg">
+                <img src="imgs/riiedem/r18.jpg" alt="Patentes" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de patentes</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r19.jpg">
+                <img src="imgs/riiedem/r19.jpg" alt="Publicaciones" width="600" height="400">
+              </a>
+              <div class="desc">Formulario de publicación</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r20.jpg">
+                <img src="imgs/riiedem/r20.jpg" alt="Mis formatos" width="600" height="400">
+              </a>
+              <div class="desc">Mis formatos</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r21.jpg">
+                <img src="imgs/riiedem/r21.jpg" alt="Vista de administrador" width="600" height="400">
+              </a>
+              <div class="desc">Vista de administrador</div>
+            </div>
+
+          </div>
+
+          <div class="clearfix"></div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r22.jpg">
+                <img src="imgs/riiedem/r22.jpg" alt="Modificar usuario" width="600" height="400">
+              </a>
+              <div class="desc">Modificar usuario</div>
+            </div>
+          </div>
+
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r23.jpg">
+                <img src="imgs/riiedem/r23.jpg" alt="Eliminar usuario" width="600" height="400">
+              </a>
+              <div class="desc">Eliminar usuario</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r24.jpg">
+                <img src="imgs/riiedem/r24.jpg" alt="Registrar nuevo docente" width="600" height="400">
+              </a>
+              <div class="desc">Registrar nuevo docente</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="imgs/riiedem/r25.jpg">
+                <img src="imgs/riiedem/r25.jpg" alt="Ver usuarios" width="600" height="400">
+              </a>
+              <div class="desc">Ver usuarios</div>
+            </div>
+          </div>
+        <div class="clearfix"></div>
+  </p>
+</div> 
+
+  <p class="justificado">
+
+    En lo que respecta a la base de datos, cada una de las tablas quedó de la siguiente manera, con la excepción de las tablas de usuarios y administrador que, por razones de seguridad, no pueden mostrarse. </p>
+
+    <br><br>
+
+    <div align="center">
+      <img src="imgs/riiedem/base.png" alt="Estructura de base de datos" width="800px;" height="1600px;">
+    </div>
+
+    <br><br><p class="justificado">Este proyecto fue realizado en base a la metodología Scrum, siguiendo las fechas indicadas de los sprints para su posterior testeo y despliegue. Se aplicaron pruebas de integración, funcionalidad y humo.
+
+    <br><br>De esta forma, se puede establecer que con las pruebas de integración aplicadas al sistema de RIIEDEM, cada apartado del sistema es funcional y que cualquier enlace, botón u opción disponible, devolverá una respuesta de la acción antes realizada. Por ejemplo, al posicionarse sobre el menú, este despliega un listado de todas las opciones posibles y al dar clic en cualquiera de ellas, se verá reflejada una acción.
+
+    <br><br>Con esto, las pruebas funcionales sirvieron para verificar que las acciones realizadas devuelvan un valor esperado. Es decir, si se decide ingresar el registro de una nueva clase, para posteriormente poder visualizar los datos de esta, se puede insertar la información deseada y, en efecto, se devuelvan los valores antes ingresados.
+
+    <br><br>Por último, con las pruebas de humo, se pudo establecer que la funcionalidad básica del sistema es operable sin problemas. El formulario de registro de usuarios funciona sin problema, los inicios de sesión validan correctamente la información y cada uno de los formularios para subir información nueva de las clases, horarios, patentes, etc., además de actualizarla, eliminarla o visualizarla, funcionan sin problemas, devolviendo los valores esperados. Además, se puede realizar una descarga del repositorio y una instalación automática del mismo en el equipo de cómputo o el dispositivo móvil.
+
+    <br><br>Concluidas las pruebas, se realizó el despliegue del sistema, el cual se puede encontrar por medio del siguiente link:
+  </p>
+    
+    <div align="center">
+    <a href="https://riieedem.000webhostapp.com/" id="black" target="_blank">RIIDEM</a>
+    </div>
+
+  <br>  
+
+  <!-- Agrega más elementos .item según sea necesario -->
+      </div>
+
+      </div><!--Div del content-->
+      
+    </article> <!-- /article -->
+  
+  </section> <!-- / #main-content -->
+
+<footer id="main-footer">
+  <p>&copy; 2023 Yenifer Hzu. Todos los derechos reservados.<a href="https://linktr.ee/yen_hzu" target="_blank"><br>Desarollado por Yenifer Hzu</a></p>
+</footer><!-- / #main-footer -->
+
+</body>
+  <script src="js/particles.js"></script>
+</html>
+

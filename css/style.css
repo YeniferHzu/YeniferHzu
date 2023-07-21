@@ -1,0 +1,377 @@
+
+/*PARTICULAS*/
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/*TRANSICION*/
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  background: #0f0f0f; 
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-top: 80px;
+}
+
+h1, h2 {
+  font-family: Impact;
+  font-size: 2.3em;
+  line-height: 1.3em;
+  margin: 15px 70px;
+  /*text-align: center;*/
+  font-weight: 300;
+  color: white;
+}
+
+h3{
+  font-family: Arial Black;
+  font-size: 1.3em; /*TAMAÑO DE LA LETRA*/
+  line-height: 1.3em;
+  color: white;
+}
+
+#encabezado{
+  font-family: Impact;
+  font-size: 3em;
+  line-height: 1.3em;
+  margin: 15px 70px;
+  /*text-align: center;*/
+  font-weight: 300;
+}
+
+#encabezado-pequeño{
+  font-family: Arial Black;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin: 15px 70px;
+  /*text-align: center;*/
+  font-weight: 300;
+}
+
+p {
+  font-family: Arial;
+  font-weight: bold;/*Letra en negrita*/
+  font-size: 1em;
+  line-height: 1.3em;
+  margin: 15px 70px;
+  font-weight: 300;
+  color: white;
+}
+
+#contenido { 
+  width: 500px;
+  margin:0 auto;
+}
+
+/*AJUSTAR LAS GALERÍAS DE RIIEDEM*/
+#ajustar { 
+  width: 950px;
+  margin:0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#black{
+  font-family: arial black;
+  color: white;
+}
+
+/*CABECERA*/
+#main-header {
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+  height: 80px;
+  
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+} 
+
+#main-header a {
+  color: white;
+}
+  
+  
+/*LOGO*/
+#logo-header {
+  float: left;
+  padding: 15px 0 0 20px;
+  text-decoration: none;
+}
+
+#logo-header:hover {
+  color: #6ee7cd;
+}
+  
+#logo-header .site-name {
+  display: block;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+  
+#logo-header .site-desc {
+  display: block;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #999;
+}
+  
+
+/*Navegación*/
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+}
+  
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+      
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+      
+nav ul li a:hover {
+  background: #6ee7cd;
+  }
+
+/*PIE PÁGINA*/
+#main-footer {
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#main-footer p {
+  margin: 0;
+}
+  
+#main-footer a {
+  color: white;
+}
+
+/*JUSTIFICAR TEXTO*/
+.justificado{
+  text-align: justify;
+  font-weight: bold;/*Letra en negrita*/
+  font-size: 1em;
+  line-height: 1.3em;
+  margin: 15px 70px;
+  font-weight: 300;
+  color: white;
+}
+
+/*JUSTIFICAR TEXTO IZQUIERDA*/
+.justificado-izq{
+  text-align: left;
+  font-family: Arial;
+  font-weight: bold;/*Letra en negrita*/
+  font-size: 1em;
+  line-height: 1.3em;
+  margin: 15px 70px;
+  font-weight: 300;
+  color: white;
+}
+
+/*JUSTIFICAR TEXTO DERECHA*/
+  .justificado-derec{
+  text-align: right;
+  font-family: Arial;
+  font-weight: bold;/*Letra en negrita*/
+  font-size: 1em;
+  line-height: 1.3em;
+  margin: 15px 70px;
+  font-weight: 300;
+  color: white;
+  }
+
+/*PARA LA GALERÍA*/
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*CARRUSEL*/
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 800%;
+  
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
+
+/*TAMAÑO DE ICONS*/
+.icons{
+  width: 70px;
+  height: 70px;
+}
+
+/*TAMAÑO DE IMAGENES*/
+.imgs{
+  width: 150px;
+  height: 150px;
+}
+
+/*PARA EL GIF*/
+#main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+#main-content {
+  padding-top: 0px; /*El valor oriinal es 80 pero hace que la imagen quede muy debajo*/
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Cambiado a 100vh para ocupar el tamaño completo del viewport */
+}
+
+.container img { /*Función para el gif*/
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*text-align: center;*/
+  width: 100%;
+  color: white;
+}
+
+.text-overlay h1 {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .text-overlay h1 {
+    font-size: 18px;
+  }
+}
+
+/*FLOTAR IMAGEN*/
+.flotante {
+  position: relative;
+  animation: flotar 3s ease-in-out infinite;
+}
+
+@keyframes flotar {
+0% {
+  transform: translate(0, 0);
+  }
+50% {
+  transform: translate(0, -10px);
+  }
+100% {
+  transform: translate(0, 0);
+  }
+
